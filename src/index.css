@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background:linear-gradient(to right,blue,green);
+    text-align: center;
+}
+.Todo-btn{
+    margin-left: 10px;
+    padding: 0.5rem 1rem;
+    background: green;
+    opacity: 0.5;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input{
+    padding: 1rem 2em;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    opacity: 0.5;
+    color: black;
+}
+.delete{
+    color: red;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.edit{
+    color: orange;
+    border-radius: 10px;
+    cursor: pointer;
 }
